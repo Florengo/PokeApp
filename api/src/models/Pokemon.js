@@ -45,7 +45,23 @@ module.exports = (sequelize) => {
     img:{
       type:DataTypes.STRING,
       allowNull:false,
-    }
+    },
+
+    createdInDb:{
+      type: DataTypes.BOOLEAN,
+      allowNull: false,
+      defaultValue: true,
+    },
+
+    special_attack:{
+      type: DataTypes.INTEGER,
+      allowNull:false,
+    },
+
+    special_defense:{
+      type: DataTypes.INTEGER,
+      allowNull:false,
+    },
 
   });
 };

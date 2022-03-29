@@ -1,0 +1,16 @@
+.paginado {
+    display: flex;
+    justify-content: center;
+    column-gap: 2px;
+}
+
+.number {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+.number:hover {
+    transform: scale(1.1);
+    transition-duration: 200ms;
+}

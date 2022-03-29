@@ -1,0 +1,29 @@
+.linkedin {
+    margin-top: -5px;
+}
+
+.linkedin:hover {
+    transform: scale(1.05);
+    transition-duration: 200ms;
+}
+
+.github:hover {
+    transform: scale(1.05);
+    transition-duration: 200ms;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    column-gap: 40px;
+}
+
+.div {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.background{
+    height: 100vh;
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(214,213,172,1) 100%, rgba(220,233,244,1) 100%, rgba(255,255,255,1) 100%);
+}
